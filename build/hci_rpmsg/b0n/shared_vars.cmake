@@ -1,0 +1,7 @@
+add_custom_target(b0n_shared_property_target)
+set_property(TARGET b0n_shared_property_target  PROPERTY KERNEL_HEX_NAME;zephyr.hex)
+set_property(TARGET b0n_shared_property_target  PROPERTY ZEPHYR_BINARY_DIR;C:/Users/elija/NordicThingy53/myvscodeapps/machine_learning/build/hci_rpmsg/b0n/zephyr)
+set_property(TARGET b0n_shared_property_target  PROPERTY KERNEL_ELF_NAME;zephyr.elf)
+set_property(TARGET b0n_shared_property_target  PROPERTY BUILD_BYPRODUCTS;C:/Users/elija/NordicThingy53/myvscodeapps/machine_learning/build/hci_rpmsg/b0n/zephyr/zephyr.hex;C:/Users/elija/NordicThingy53/myvscodeapps/machine_learning/build/hci_rpmsg/b0n/zephyr/zephyr.elf)
+set_property(TARGET b0n_shared_property_target APPEND PROPERTY PM_YML_DEP_FILES;C:/Users/elija/ncs/v2.1.0/nrf/samples/nrf5340/netboot/pm.yml)
+set_property(TARGET b0n_shared_property_target APPEND PROPERTY PM_YML_FILES;C:/Users/elija/NordicThingy53/myvscodeapps/machine_learning/build/hci_rpmsg/b0n/zephyr/include/generated/pm.yml)

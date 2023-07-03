@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://studio.edgeimpulse.com/v1/api/33184/deployment/download?type=zip&modelType=int8'
+tag=''
